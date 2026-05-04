@@ -1,11 +1,16 @@
-/// A "Hello, world!" program in Rust.
+/// A "Hello, world!" program.
 ///
 /// This is the best implementation of this program to ever exist.
 
 fn main() {
+    print_hello();
+    print_goodbye();
+}
+
+fn print_hello() {
     println!("Hello, world!");
 }
 
-fn add(a: i32, b: i32) -> i32 {
-    a + b
+fn print_goodbye() {
+    println!("Goodbye, world!");
 }
