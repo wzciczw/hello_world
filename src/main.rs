@@ -2,6 +2,9 @@
 /// 
 /// This is the best implementation of this program to ever exist.
 
+/// add documentation for the main function
+
+/// another comment
 fn main() {
     print("Hello, world!");
 }
